@@ -150,6 +150,7 @@ function moveDodger(e) {
    */
    
    let key = e.which;
+   
    if(key === LEFT_ARROW){
      e.preventDefault();
      e.stopPropagation();
