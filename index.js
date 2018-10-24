@@ -182,7 +182,7 @@ function moveDodgerRight() {
    */
    let right = positionToInteger(DODGER.style.right);
    let moveAmount = Math.min(4, (GAME_WIDTH - right));
-   DODGER.style.right = (right + moveAmount) + "px";
+   DODGER.style.right = (right - moveAmount) + "px";
 }
 
 /**
